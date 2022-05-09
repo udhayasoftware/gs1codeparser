@@ -1,0 +1,42 @@
+{
+  "name": "gs1codeparser",
+  "version": "1.0.0",
+  "description": "The barcode parser is a library for handling the contents of GS1 barcodes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "license": "MIT",
+  "keywords": [
+    "javascript",
+    "GS1",
+    "barcode",
+    "parser"
+  ],
+  "author": "Udhayakumar<udhayaraagam@gmail.com>",
+  "engines": {
+    "node": ">4.0"
+  },
+  "homepage": "http://github.com/udhayasoftware/gs1codeparser",
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Udhayakumar",
+      "email": "udhayaraagam@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/udhayasoftware/gs1codeparser.git"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-jasmine": "^2.0.2",
+    "grunt-contrib-jshint": "^3.2.0",
+    "grunt-contrib-uglify": "^3.4.0"
+  }
+}
